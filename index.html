@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Lokhande | Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">SL</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Shruti Lokhande</h1>
+            <p class="tagline">Electronics & Telecommunication Student | Aspiring Tech Innovator</p>
+            <p class="intro">A passionate Second Year EXTC student diving deep into the world of technology. I'm fascinated by the intersection of hardware and software and am building my skills in web development and API integration.</p>
+        </div>
+    </section>
+
+    <!-- Now Coding Section -->
+    <section id="coding" class="section">
+        <div class="container">
+            <h2>Now Coding</h2>
+            <div id="github-activity" class="loader">Loading GitHub activity...</div>
+        </div>
+    </section>
+    <script src="js/github.js"></script>
+
+    <!-- Favorite Song Section -->
+    <section id="listening" class="section">
+        <div class="container">
+            <h2>My Favorite Song</h2>
+            <div class="spotify-embed">
+                <iframe 
+                    src="https://open.spotify.com/embed/track/0VjIjW4GlUZAMYd2vXMi3b" 
+                    width="100%" 
+                    height="152" 
+                    frameborder="0" 
+                    allowtransparency="true" 
+                    allow="encrypted-media"
+                    style="border-radius: 8px;">
+                </iframe>
+            </div>
+            <p style="margin-top: 1rem; text-align: center; color: var(--text-light);">
+                Currently enjoying this track! 🎵
+            </p>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Shruti, a Second Year EXTC student with a drive to create and innovate. My curriculum in electronics gives me a strong foundation in logical problem-solving, which I'm now applying to the digital realm through web development. This portfolio itself is a testament to my learning journey, showcasing my ability to work with dynamic APIs. I'm eager to collaborate on projects that bridge the physical and digital worlds.</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <ul>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>JavaScript (ES6+)</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Concepts</h4>
+                            <ul>
+                                <li>OOPs</li>
+                                <li>Data Structures</li>
+                                <li>API Integration</li>
+                                <li>Responsive Web Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <ul>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>VS Code</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>IoT based Smart Irrigation System</h3>
+                    <p>Designed a system using Arduino and soil moisture sensors to automate plant watering, optimizing water usage.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio V1 (Static)</h3>
+                    <p>My first attempt at a portfolio using pure HTML and CSS. It was a great learning experience for web fundamentals.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Calculator Web App</h3>
+                    <p>A clean, functional calculator built with JavaScript, featuring a responsive UI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-links">
+                <a href="#" class="contact-link">Email</a>
+                <a href="#" target="_blank" class="contact-link">GitHub</a>
+                <a href="#" target="_blank" class="contact-link">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
